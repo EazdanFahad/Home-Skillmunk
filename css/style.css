@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	width:1140px;
+	margin: auto;
+}
+
+a{
+ 	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+
+/****************************
+Section 1{Head}
+****************************/
+
+
+.head{
+	background-color: #6200ee;
+
+}
+.nav{
+	display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 0px;
+}
+
+.left{
+	display: flex;
+
+}
+
+.left ul li{
+	display: inline-block;
+	margin: 0px 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 600px;
+	line-height: 3;
+
+}
+
+.left ul li a{
+	color: white;
+}
+.left img{
+	width: 180px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.right button {
+	background-color: #03dac5;
+    border: none;
+    padding: 13px 30px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+/********************************
+            Section 2
+*********************************/
+
+.head1{
+
+	width: 100%;
+	height:100vh;
+	background-image: url(../img/ocean-gab3db9b8b_1920.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nav1 h1{
+	font-size: 52px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 150px 0px 20px 0px;
+
+}
+
+.nav1 span{
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	display: block;
+	margin: 0px 555px 25px 0px;
+}
+
+.nav1 button{
+	background-color: #03dac5;
+    border: none;
+    padding: 13px 30px;
+    border-radius: 7px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+
+/********************************
+            Section 3
+*********************************/
+.nav2 h1,.nav2 p{
+	text-align: center;
+}
+
+.nav2 h1{
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	color: #134477;
+	padding: 70px 0px 30px 0px;
+	
+}
+
+.flex{
+	display: flex;
+	text-align: center;
+}
+
+.nav2 p{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: #4e4e4e;
+	display: block;
+	margin: 0px 300px 60px 300px;
+	line-height: 1.8;
+
+}
+.left1,.middle,.right1{
+	margin: 0px 20px;
+	background-color: #f2f7fd;
+	padding: 20px 60px;
+	border-radius: 9px;
+}
+
+.left1 h5,.middle h5,.right1 h5{
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	color: #134477;
+	margin: 20px 0px;
+}
+
+.left1 span,.middle span,.right1 span{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #4e4e4e;
+	line-height: 1.8;
+
+
+}
+
+/********************************
+            Section 4
+*********************************/
